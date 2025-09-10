@@ -7,6 +7,7 @@ require("dotenv").config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 
+
 const allowedOrigins = [
   "http://localhost:5500",   
   "http://localhost:5173"
